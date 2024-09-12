@@ -134,12 +134,18 @@
         /* ////////////////////////////// NAB BAR OR CONTACT BTN/////////////////////////// */
 
         .footer {
-            background: linear-gradient(90deg, rgba(223, 192, 112, 1) 0%, rgba(149, 129, 75, 1) 35%, rgba(222, 188, 100, 1) 100%);
+            /* background: linear-gradient(90deg, rgba(223, 192, 112, 1) 0%, rgba(149, 129, 75, 1) 35%, rgba(222, 188, 100, 1) 100%); */
             color: #fff;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 20px;
+            background-color: #bca569;
+            background-image: url(footer_background.png);
+            background-blend-mode:color-burn;
+            background-size: contain;
+            width: auto;
+            height: auto;
         }
 
         .footer-section {
@@ -408,7 +414,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.1);
+            /* background: rgba(0, 0, 0, 0.1); */
             z-index: 0;
             transition: opacity 0.3s ease;
         }
@@ -545,6 +551,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             /* Box shadow for depth */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-image: url(values_card_bg.jfif);
+            background-blend-mode:color-burn;
         }
 
         /* Hover effects for interaction */
@@ -591,7 +599,7 @@
             display: flex;
             width: 100%;
             max-width: 1200px;
-            height: 300px;
+            height: 450px;
             /* Adjust height as needed */
         }
 
@@ -781,7 +789,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="hero2.jpg" class="d-block w-100" alt="...">
+                    <img src="hero2.jfif" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>"Discover the perfect paper for your carton manufacturing needs at Mehran Papers."
                         </h1>
@@ -807,13 +815,13 @@
             </button>
         </div>
 
-        <center><br>
+        <center><br><br>
             <h1><b>Why Mehran Paper Products</b></h1>
             <br><br>
             <div class="wmpp">
                 <div class="box50by50">
                     <div class="boxx box22"><img src="hero1.jpg" alt=""></div>
-                    <div class="boxx box11">
+                    <div class="boxx box11" style="color: #ffffff;">
                         <h3>
                             Where innovation meets tradition in the art of paper production. Since our inception, we
                             have dedicated
